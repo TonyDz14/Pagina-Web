@@ -52,9 +52,19 @@ header {
     color: #fff;
     padding: 0 50px;
 }
-
+#hero .skills #habilidades {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    list-style: none;
+    font-weight: bold;
+}
+#hero .skills {
+    top: 200%;
+    transform: translateY(-200%);
+}
 #hero .information-container #foto {
-    width: 180px;
+    width: 170px;
 }
 #hero .information-container #foto img {
     border-radius: 100%;
@@ -69,15 +79,14 @@ header {
     color: #b5b5b5;
     margin-bottom: 70px;   
 }
-
 /* Estilos del main */
 main {
-    padding: 100px;
+    padding: 50px;
 }
 main .social-icons {
     display: flex;
     justify-content: center;
-    margin-top:  40px;
+    margin-top:  60px;
     list-style: none;
 }
 main .social-icons li {
